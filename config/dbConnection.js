@@ -5,10 +5,10 @@ var connMysql = function() {
 
 	
 	return mysql.createConnection({
-		host : '18.231.55.219',
+		host : 'localhost',
 		user: 'root',
 		password: 'Wa180279',
-		database: 'wsclinica'
+		database: 'wscondominio'
 	});
 }
 
